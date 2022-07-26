@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SecondPage</title>
+    <style>
+        input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: rgba(5, 75, 140, 0.473);
+  }
+  body{
+  background-color:  rgba(60, 188, 141, 0.473);
+}
+    </style>
+  </head>
+  <body>
+    <!--Internal CSS-->
+    <h1>Hey I'm John</h1>
+    <p>About Me</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rerum
+      consequatur quasi necessitatibus. Debitis culpa repudiandae ex et ea.
+      Mollitia velit, dolorem labore distinctio vel laborum officiis sunt omnis
+      adipisci.
+    </p>
+    <Form name="action">
+        <fieldset>
+            <legend>Your Personal Details</legend>
+            <label for="name">*Name:</label>
+            <input type = "text" name= "NAME" placeholder ="Enter your Name..."  />
+            <br>
+            <label for="email">*Email:</label>
+            <input type= "text" email= "Email" placeholder ="Enter your Email..." />
+            <br>
+            <label for="age">*Age:</label>
+            <input type= "text" age= "age" placeholder ="Age..." >
+              <br>
+              Which option best describes your role?
+              <select name = "dropdown">
+                <option value="option" selected>Select an option</option>    
+                  <option value = "student">Student</option>
+                  <option value = "teacher">Teacher</option>
+               </select> 
+               <br>
+              How likely is that you would recommend Stutern to a friend? <br>
+               <input type = "radio" name = "subject" value = "Definitely">Definitely 
+               <br>
+               <input type = "radio" name = "subject" value = "Maybe"> Maybe
+               <br>
+               <input type= "radio" name= "subject" value= "Not sure"> Not sure <br>
+               What do you like the most about Stutern?
+               <select name = "dropdown">
+                  <option value = "option" selected>Select an option</option>
+                  <option value = "yes">The teaching</option>
+                  <option value = "yes" >Free WiFi</option>
+                  <option value = "yes" >It's Remote</option>
+               </select> 
+               <br>
+               Things that should be improved in the future (Check all that apply): <br>
+               <input type = "checkbox" name = "front-end projects" value = "on"> Front-end Projects
+               <br> 
+               <input type = "checkbox" name = "back-end projects" value = "on"> Back-end Projects
+               <br>
+               <input type = "checkbox" name = "Software Testing" value = "on"> Software Testing
+        </fieldset>
+           </form>
+           <button type="button"> <a href="/Thirdpage.html">To the next page</a></button>
+           
+  </body>
+</html>

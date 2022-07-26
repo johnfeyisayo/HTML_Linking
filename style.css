@@ -1,0 +1,19 @@
+body{
+    color:#0000FF;
+}
+
+.container{
+    background-color: #ddddff;
+    height: 21cm;
+}
+.heading{
+    text-align: center;
+    width: 25cm;
+}
+.container2{
+    border: 5px outset red;
+}
+.heading2{
+    text-align: center;
+    width: 25cm;
+}
